@@ -1,0 +1,235 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.internal-banner {
+  position: relative;
+}
+
+section {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0;
+  font-weight: 300;
+}
+
+.internal-banner img {
+  width: 100%;
+}
+
+.internal-banner img {
+  height: 500px;
+}
+
+.img-responsive {
+  display: inline-block;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.internal-banner .overlay-banner {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+div {
+  display: block;
+}
+
+.internal-banner h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.1;
+}
+
+h1 {
+  color: #333;
+}
+
+.internal-banner h1 span {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  display: inline-block;
+  line-height: 50px;
+}
+
+.internal-banner h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.internal-banner h1 img {
+  height: 30px;
+  width: auto;
+}
+
+.internal-banner h1 span::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  /* -moz-border-radius: 50%;
+  -webkit-border-radius: 50%; */
+  border: 2px dashed #fff;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  /* -webkit-animation-duration: 5s; */
+  animation-duration: 5s;
+  /* -webkit-animation-fill-mode: both; */
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: borderrotate;
+  animation-timing-function: linear;
+}
+
+:before {
+  box-sizing: border-box;
+}
+
+.internal-banner h1 span {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  display: inline-block;
+  line-height: 70px;
+}
+
+.internal-banner .overlay-banner h2 {
+  color: #fff;
+  font-size: 35px;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.internal-banner .overlay-banner h2 span {
+  color: #20a3f0;
+}
+
+.internal-banner .overlay-banner h2 {
+  color: #fff;
+  font-size: 35px;
+  letter-spacing: 0;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.internal-banner .overlay-banner p {
+  color: #fff;
+  margin: 20px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.internal-banner .overlay-banner h6 {
+  display: inline;
+  text-align: center;
+  background: 0 0;
+  border: none;
+  position: relative;
+}
+
+h6 {
+  color: #424242;
+  font-size: 15px;
+}
+
+body {
+  display: block;
+  margin: px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 5px 0 10px;
+  line-height: 1.5;
+}
+
+.internal-banner .overlay-banner h6 a {
+  margin: 0 5px;
+  border: 1px solid #fff;
+  position: relative;
+}
+
+.internal-banner .overlay-banner h6 a,
+.overlay-banner h6 a {
+  color: #fff;
+  padding: 15px 35px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+A,
+A:link {
+  transition: color ease 0.3s;
+  -moz-transition: color ease 0.3s;
+  -webkit-transition: color ease 0.3s;
+  -o-transition: color ease 0.3s;
+  -ms-transition: color ease 0.3s;
+}
+
+.hvr-sweep-to-right,
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 0 1px transparent;
+}
+
+a {
+  background-color: transparent;
+}
+
+.hvr-sweep-to-right:before {
+  position: absolute;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
